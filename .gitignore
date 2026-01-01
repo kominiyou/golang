@@ -1,10 +1,1 @@
-.config/
-.local/
-.cache/
-.replit
-attached_assets/
-replit.md
-Wilykun/bossbot/*.db
-Wilykun/jadibot/*.db
-# Hapus 'app' dari gitignore agar terupload ke Seenode
-# app
+# .gitignore dikosongkan agar semua file dan folder terupload ke GitHub sesuai permintaan user
