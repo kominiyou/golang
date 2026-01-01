@@ -1,1 +1,3 @@
 # .gitignore dikosongkan agar semua file dan folder terupload ke GitHub sesuai permintaan user
+# Folder .config secara eksplisit dihapus dari aturan ignore
+!.config/
