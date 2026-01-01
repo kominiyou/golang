@@ -868,6 +868,9 @@ func main() {
         fmt.Print(ColorYellow + "=" + strings.Repeat("=", 35) + ColorReset + "\n\n")
 
         nomer = os.Getenv("WHATSAPP_NUMBER")
+        if nomer == "" {
+                nomer = os.Getenv("NOMOR_BOT")
+        }
 
         if nomer == "" {
                 existingNumbers := getExistingPhoneNumbers()
