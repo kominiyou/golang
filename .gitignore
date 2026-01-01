@@ -4,6 +4,7 @@
 .replit
 attached_assets/
 replit.md
-app
 Wilykun/bossbot/*.db
 Wilykun/jadibot/*.db
+# Hapus 'app' dari gitignore agar terupload ke Seenode
+# app
